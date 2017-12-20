@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/bt_pt_rx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="普通的Rxjava"/>
+
+    <Button
+        android:id="@+id/bt_czf_rx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="just"/>
+
+    <Button
+        android:id="@+id/bt_map_rx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="map()操作符"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="map()操作符"/>
+
+</LinearLayout>

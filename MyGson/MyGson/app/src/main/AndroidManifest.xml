@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tjhq.mygson">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".asyncfastjson.activity.AsyncActivity" />
+        <activity android:name=".okhtto3.activity.Okhttp3Activity" />
+        <activity android:name=".retrofit2.activity.Retrofit2Activity" />
+        <activity android:name=".dagger.Dagger2Activity" />
+        <activity android:name=".picturea" />
+        <activity android:name=".picture.PictureGlideActivity" />
+        <activity android:name=".picture.PicturePicassoActivity" />
+        <activity android:name=".picture.PicturefrescoActivity" />
+        <activity android:name=".rxjava.RxjavaActivity" />
+        <activity android:name=".evenbus.EvenBusActivity" />
+        <activity android:name=".evenbus.demo1.LoginNoActivity" />
+        <activity android:name=".evenbus.demo1.LoginActivity" />
+        <activity android:name=".evenbus.demo2.RegisEvenBusActivity" />
+        <activity android:name=".evenbus.demo2.SecondActivity" />
+        <activity android:name=".rxjava.demo1.RxjavaPtActivity" />
+        <activity android:name=".rxjava.demo2.RxjavaCzfActivity" />
+        <activity android:name=".rxjava.demo3.RxjavaMapActivity" />
+        <activity android:name=".view.ShowActivity" />
+        <activity android:name=".view.StateLayoutActivity"></activity>
+    </application>
+
+</manifest>

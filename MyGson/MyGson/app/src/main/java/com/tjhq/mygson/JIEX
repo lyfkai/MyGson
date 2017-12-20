@@ -1,0 +1,14 @@
+{"status":"ok","data":[{"id":2,"name":"李四","passwd":"123456"},{"id":1,"name":"张三","passwd":"123456"}}
+
+
+    String str = "{\"status\":\"ok\",\"data\":[{\"id\":2,\"name\":\"李四\",\"password\":\"123456\"},{\"id\":1,\"name\":\"张三\",\"password\":\"123456\"}]}";
+
+
+    JSONObject json = new JSONObject(str);
+    System.out.println("status:" + json.getString("status"));
+    JSONArray jsonArray = json.getJSONArray("data");
+    for (int i = 0; i < jsonArray.length(); i++) {
+        System.out.println("id:" + jsonArray.getJSONObject(i).getInt("id"));
+        System.out.println("name:" + jsonArray.getJSONObject(i).getString("name"));
+        System.out.println("password:" + jsonArray.getJSONObject(i).getString("password"));
+    }

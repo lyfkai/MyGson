@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/bt_bd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="本地图片"/>
+            <ImageView
+                android:id="@+id/iv_bd"
+                android:layout_width="101dp"
+                android:layout_height="95dp"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/bt_sdka"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="SD卡图片"/>
+
+            <ImageView
+                android:id="@+id/iv_sdka"
+                android:layout_width="95dp"
+                android:layout_height="93dp"
+              />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/bt_net"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="网络图片"/>
+
+            <ImageView
+                android:id="@+id/iv_net"
+                android:layout_width="45dp"
+                android:layout_height="94dp"
+               />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="51.33"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/bt_yuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="圆形图片"/>
+
+            <ImageView
+                android:id="@+id/iv_yuan"
+                android:layout_width="wrap_content"
+                android:layout_height="92dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/bt_tuoyuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="椭圆图片"/>
+            <ImageView
+                android:id="@+id/iv_tuoyuan"
+                android:layout_width="101dp"
+                android:layout_height="95dp"
+            />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/bt_cuow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="初始或错误"/>
+
+            <ImageView
+                android:id="@+id/iv_cuow"
+                android:layout_width="95dp"
+                android:layout_height="93dp"
+               />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/bt_dra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Dra资源"/>
+
+            <ImageView
+                android:id="@+id/iv_dra"
+                android:layout_width="97dp"
+                android:layout_height="94dp"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/bt_lzp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="老照片"/>
+
+            <ImageView
+                android:id="@+id/iv_lzp"
+                android:layout_width="match_parent"
+                android:layout_height="103dp"
+               />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/bt_suoxiao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="缩小图片"/>
+            <ImageView
+                android:id="@+id/iv_suoxiao"
+                android:layout_width="101dp"
+                android:layout_height="95dp"
+               />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/bt_gif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="GIF图片"/>
+
+            <ImageView
+                android:id="@+id/iv_gif"
+                android:layout_width="95dp"
+                android:layout_height="93dp"
+                />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/bt_tuptchong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="图片填充"/>
+
+            <ImageView
+                android:id="@+id/iv_tuptchong"
+                android:layout_width="97dp"
+                android:layout_height="94dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

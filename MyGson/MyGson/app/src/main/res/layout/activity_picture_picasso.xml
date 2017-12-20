@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/bt_jbjz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="基本加载"/>
+            <ImageView
+                android:id="@+id/iv_jbjz"
+                android:layout_width="101dp"
+                android:layout_height="95dp"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/bt_onlyScaleDown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="onlyScaleDown"/>
+
+            <ImageView
+                android:id="@+id/iv_onlyScaleDown"
+                android:layout_width="95dp"
+                android:layout_height="93dp"
+                />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/bt_ls"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="拉伸图片处理"/>
+
+            <ImageView
+                android:id="@+id/iv_ls"
+                android:layout_width="97dp"
+                android:layout_height="94dp"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/bt_fit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="fit"/>
+
+            <ImageView
+                android:id="@+id/iv_fit"
+                android:layout_width="wrap_content"
+                android:layout_height="92dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/bt_jzyx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="加载优先"/>
+            <ImageView
+                android:id="@+id/iv_jzyx"
+                android:layout_width="101dp"
+                android:layout_height="95dp"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/bt_zwt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="淡入效果"/>
+
+            <ImageView
+                android:id="@+id/iv_zwt"
+                android:layout_width="95dp"
+                android:layout_height="93dp"
+                />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/bt_ect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="noPlaceholder"/>
+
+            <ImageView
+                android:id="@+id/iv_ect"
+                android:layout_width="97dp"
+                android:layout_height="94dp"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/bt_zhq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="定义图片"/>
+
+            <ImageView
+                android:id="@+id/iv_zhq"
+                android:layout_width="wrap_content"
+                android:layout_height="92dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+   </LinearLayout>

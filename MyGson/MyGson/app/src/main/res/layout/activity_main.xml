@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tjhq.mygson.MainActivity">
+
+   <Button
+       android:id="@+id/bt_async_fastjson"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="网络请求async"/>
+
+    <Button
+        android:id="@+id/bt_okhttp_gson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="网络请求okhttp"
+        />
+
+    <Button
+        android:id="@+id/bt_retrofit2_gson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="网络请求retrofit2"
+        />
+
+    <Button
+        android:id="@+id/bt_glide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="图片框架Glide"/>
+
+    <Button
+        android:id="@+id/bt_picasso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="图片框架picasso"/>
+
+    <Button
+        android:id="@+id/bt_fresco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="图片框架fresco"/>
+
+ <Button
+     android:id="@+id/bt_rxjava"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="异步框架Rxjava"/>
+
+ <Button
+     android:id="@+id/bt_even_bus"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="异步框架EventBus3.0"/>
+
+ <Button
+     android:id="@+id/bt_dagger"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="注入框架Dagger2"/>
+
+</LinearLayout>
